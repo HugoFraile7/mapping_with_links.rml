@@ -1,0 +1,121 @@
+@prefix : <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@base <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio> .
+
+<#TriplesMap1>
+	      rml:logicalSource [ 
+    	  rml:source "Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Pais}";
+			               rr:termType rr:IRI; 
+			               rr:class our:Pais
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:nombre;
+    	rr:objectMap [
+      		rml:reference "nombre";
+        rr:datatype xsd:int  
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:valor_democracia;
+    	rr:objectMap [
+      		rml:reference "valor_democracia";
+        rr:datatype xsd:float   
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:poblacion_2022;
+    	rr:objectMap [
+      		rml:reference "poblacion_2022";
+        rr:datatype xsd:int  
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:tipo_regimen;
+    	rr:objectMap [
+      		rml:reference "tipo_regimen";
+        rr:datatype xsd:string  
+      		]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate our:tiene;
+        rr:objectMap [
+        rr:parentTriplesMap <#TriplesMap2>;
+        rr:joinCondition [
+            rr:child "Pais";
+            rr:parent "indice_depresion";
+            ];
+        ];
+        
+    rr:predicateObjectMap [
+        rr:predicate our:esta_en;
+        rr:objectMap [
+        rr:parentTriplesMap <#TriplesMap3>;
+        rr:joinCondition [
+            rr:child "Pais";
+            rr:parent "Zona";
+            ];
+        ];
+    ].
+    
+<#TriplesMap2>
+	      rml:logicalSource [ 
+    	  rml:source "Data.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{indice_depresion}";
+			               rr:termType rr:IRI; 
+			               rr:class our:indice_depresion
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:numero_casos;
+    	rr:objectMap [
+      		rml:reference "numero_casos";
+        rr:datatype xsd:int  
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:valor;
+    	rr:objectMap [
+      		rml:reference "valor";
+        rr:datatype xsd:float   
+      		]
+    ];
+    
+<#TriplesMap3>
+	      rml:logicalSource [ 
+    	  rml:source "Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Zona}";
+			               rr:termType rr:IRI; 
+			               rr:class our:Zona
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:nombre;
+    	rr:objectMap [
+      		rml:reference "nombre";
+        rr:datatype xsd:string  
+      		]
+    ];
+    
+
+
+    
