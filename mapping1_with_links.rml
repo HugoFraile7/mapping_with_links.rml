@@ -27,25 +27,25 @@
     ];
     
     rr:predicateObjectMap [
-    	rr:predicate our:valor_democracia;
+    	rr:predicate our:valorDemocracia;
     	rr:objectMap [
-      		rml:reference "valor_democracia";
+      		rml:reference "valorDemocracia";
         rr:datatype xsd:float   
       		]
     ];
     
     rr:predicateObjectMap [
-    	rr:predicate our:poblacion_2022;
+    	rr:predicate our:poblacion2022;
     	rr:objectMap [
-      		rml:reference "poblacion_2022";
+      		rml:reference "poblacion2022";
         rr:datatype xsd:int  
       		]
     ];
     
     rr:predicateObjectMap [
-    	rr:predicate our:tipo_regimen;
+    	rr:predicate our:tipoRegimen;
     	rr:objectMap [
-      		rml:reference "tipo_regimen";
+      		rml:reference "tipoRegimen";
         rr:datatype xsd:string  
       		]
     ];
@@ -68,6 +68,16 @@
             rr:parent "Zona";
             ];
         ];
+	
+    rr:predicateObjectMap [
+        rr:predicate our:esta_en;
+        rr:objectMap [
+        rr:parentTriplesMap <#TriplesMap4>;
+        rr:joinCondition [
+            rr:child "Pais";
+            rr:parent "Metricas";
+            ];
+        ];
     ].
     
 <#TriplesMap2>
@@ -82,9 +92,9 @@
     ];
     
     rr:predicateObjectMap [
-    	rr:predicate our:numero_casos;
+    	rr:predicate our:numeroCasos;
     	rr:objectMap [
-      		rml:reference "numero_casos";
+      		rml:reference "numeroCasos";
         rr:datatype xsd:int  
       		]
     ];
@@ -116,6 +126,55 @@
       		]
     ];
     
+<#TriplesMap4>
+	      rml:logicalSource [ 
+    	  rml:source "Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Metricas}";
+			               rr:termType rr:IRI; 
+			               rr:class our:Zona
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:indiceDesarrolloHumano;
+    	rr:objectMap [
+      		rml:reference "indiceDesarrolloHumano";
+        rr:datatype xsd:string  
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:pibPerCapita;
+    	rr:objectMap [
+      		rml:reference "pibPerCapita";
+        rr:datatype xsd:float  
+      		]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicate our:indiceDesarrolloHumano;
+    	rr:objectMap [
+      		rml:reference "indiceDesarrolloHumano";
+        rr:datatype xsd:float 
+      		]
+    ];
+
+    rr:predicateObjectMap [
+    	rr:predicate our:densidadPoblacion;
+    	rr:objectMap [
+      		rml:reference "densidadPoblacion";
+        rr:datatype xsd:float  
+      		]
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:coeficienteGini;
+    	rr:objectMap [
+      		rml:reference "coeficienteGini";
+        rr:datatype xsd:float 
+      		]
+    ];
 
 
     
