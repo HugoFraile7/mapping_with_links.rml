@@ -1,3 +1,4 @@
+@prefix : <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio/> .
 @prefix our: <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#> .
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
@@ -11,11 +12,11 @@
 
 <#TriplesMap1>
 	     rml:logicalSource [ 
-    	  rml:source "Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Pais}";
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio/{Country}";
 			               rr:termType rr:IRI; 
 			               rr:class our:Pais
     ];
@@ -23,34 +24,12 @@
     rr:predicateObjectMap [
     	rr:predicate our:nombre;
     	rr:objectMap [
-      		rml:reference "nombre";
-        rr:datatype xsd:int  
+      		rml:reference "Country";
+        rr:datatype xsd:string 
       		]
     ];
     
-    rr:predicateObjectMap [
-    	rr:predicate our:valorDemocracia;
-    	rr:objectMap [
-      		rml:reference "valorDemocracia";
-        rr:datatype xsd:float   
-      		]
-    ];
-    
-    rr:predicateObjectMap [
-    	rr:predicate our:poblacion2022;
-    	rr:objectMap [
-      		rml:reference "poblacion2022";
-        rr:datatype xsd:int  
-      		]
-    ];
-    
-    rr:predicateObjectMap [
-    	rr:predicate our:tipoRegimen;
-    	rr:objectMap [
-      		rml:reference "tipoRegimen";
-        rr:datatype xsd:string  
-      		]
-    ];
+   
     rr:predicateObjectMap [
         rr:predicate our:tiene;
         rr:objectMap [
@@ -64,30 +43,30 @@
       
 
   rr:predicateObjectMap [
-    rr:predicate our:esta_en; 
+    rr:predicate our:estaEn; 
     rr:objectMap [ 
       rr:parentTriplesMap <#TriplesMap3>;
       rr:joinCondition [
-        rr:child "Pais";  
-        rr:parent "Zona";   
+        rr:child "Country";  
+        rr:parent "Region";   
       ];
     ]
   ] .
   <#TriplesMap2>
 	      rml:logicalSource [ 
-    	  rml:source "Data.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{indice_depresion}";
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio/{prevalence}";
 			               rr:termType rr:IRI; 
-			               rr:class our:indice_depresion
+			               rr:class our:indiceDepresion
     ];
     
     rr:predicateObjectMap [
     	rr:predicate our:numeroCasos;
     	rr:objectMap [
-      		rml:reference "numeroCasos";
+      		rml:reference "cases";
         rr:datatype xsd:int  
       		]
     ];
@@ -102,11 +81,11 @@
     
 <#TriplesMap3>
 	      rml:logicalSource [ 
-    	  rml:source "Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Zona}";
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio/{Region}";
 			               rr:termType rr:IRI; 
 			               rr:class our:Zona
     ];
@@ -114,11 +93,29 @@
     rr:predicateObjectMap [
     	rr:predicate our:nombre;
     	rr:objectMap [
-      		rml:reference "nombre";
+      		rml:reference "Region";
         rr:datatype xsd:string  
       		]
     ].
-      
+    
+<#TriplesMap4>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{pop2022}";
+			               rr:termType rr:IRI; 
+			               rr:class our:Zona
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:nombre;
+    	rr:objectMap [
+      		rml:reference "Region";
+        rr:datatype xsd:string  
+      		]
+    ].
 
     
 
