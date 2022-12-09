@@ -1,4 +1,6 @@
-@prefix : <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#> .
+@prefix our: <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,7 +10,7 @@
 @base <http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio> .
 
 <#TriplesMap1>
-	      rml:logicalSource [ 
+	     rml:logicalSource [ 
     	  rml:source "Democracy_Index_4.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
@@ -56,31 +58,22 @@
         rr:joinCondition [
             rr:child "Pais";
             rr:parent "indice_depresion";
-            ];
+            ]
         ];
-        
-    rr:predicateObjectMap [
-        rr:predicate our:esta_en;
-        rr:objectMap [
-        rr:parentTriplesMap <#TriplesMap3>;
-        rr:joinCondition [
-            rr:child "Pais";
-            rr:parent "Zona";
-            ];
-        ];
-	
-    rr:predicateObjectMap [
-        rr:predicate our:esta_en;
-        rr:objectMap [
-        rr:parentTriplesMap <#TriplesMap4>;
-        rr:joinCondition [
-            rr:child "Pais";
-            rr:parent "Metricas";
-            ];
-        ];
-    ].
-    
-<#TriplesMap2>
+];
+      
+
+  rr:predicateObjectMap [
+    rr:predicate our:esta_en; 
+    rr:objectMap [ 
+      rr:parentTriplesMap <#TriplesMap3>;
+      rr:joinCondition [
+        rr:child "Pais";  
+        rr:parent "Zona";   
+      ];
+    ]
+  ] .
+  <#TriplesMap2>
 	      rml:logicalSource [ 
     	  rml:source "Data.csv" ;
 		            rml:referenceFormulation ql:CSV 
@@ -105,7 +98,7 @@
       		rml:reference "valor";
         rr:datatype xsd:float   
       		]
-    ];
+   ].
     
 <#TriplesMap3>
 	      rml:logicalSource [ 
@@ -124,57 +117,10 @@
       		rml:reference "nombre";
         rr:datatype xsd:string  
       		]
-    ];
-    
-<#TriplesMap4>
-	      rml:logicalSource [ 
-    	  rml:source "Democracy_Index_4.csv" ;
-		            rml:referenceFormulation ql:CSV 
-	      ];
-    	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Metricas}";
-			               rr:termType rr:IRI; 
-			               rr:class our:Zona
-    ];
-    
-    rr:predicateObjectMap [
-    	rr:predicate our:indiceDesarrolloHumano;
-    	rr:objectMap [
-      		rml:reference "indiceDesarrolloHumano";
-        rr:datatype xsd:string  
-      		]
-    ];
-    
-    rr:predicateObjectMap [
-    	rr:predicate our:pibPerCapita;
-    	rr:objectMap [
-      		rml:reference "pibPerCapita";
-        rr:datatype xsd:float  
-      		]
-    ];
-    rr:predicateObjectMap [
-    	rr:predicate our:indiceDesarrolloHumano;
-    	rr:objectMap [
-      		rml:reference "indiceDesarrolloHumano";
-        rr:datatype xsd:float 
-      		]
-    ];
+    ].
+      
 
-    rr:predicateObjectMap [
-    	rr:predicate our:densidadPoblacion;
-    	rr:objectMap [
-      		rml:reference "densidadPoblacion";
-        rr:datatype xsd:float  
-      		]
-    ];
     
-    rr:predicateObjectMap [
-    	rr:predicate our:coeficienteGini;
-    	rr:objectMap [
-      		rml:reference "coeficienteGini";
-        rr:datatype xsd:float 
-      		]
-    ];
 
 
     
