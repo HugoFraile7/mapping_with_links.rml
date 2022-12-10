@@ -35,8 +35,8 @@
         rr:objectMap [
         rr:parentTriplesMap <#TriplesMap2>;
         rr:joinCondition [
-            rr:child "Pais";
-            rr:parent "indice_depresion";
+            rr:child "Country";
+            rr:parent "prevalence";
             ]
         ];
 ];
@@ -69,14 +69,8 @@
       		rml:reference "cases";
         rr:datatype xsd:int  
       		]
-    ];
+  
     
-    rr:predicateObjectMap [
-    	rr:predicate our:valor;
-    	rr:objectMap [
-      		rml:reference "valor";
-        rr:datatype xsd:float   
-      		]
    ].
     
 <#TriplesMap3>
@@ -106,18 +100,289 @@
     	rr:subjectMap [
 			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{pop2022}";
 			               rr:termType rr:IRI; 
-			               rr:class our:Zona
+			               rr:class our:Poblacion2022
     ];
     
     rr:predicateObjectMap [
-    	rr:predicate our:nombre;
+    	rr:predicate our:Poblacion2022;
     	rr:objectMap [
-      		rml:reference "Region";
+      		rml:reference "pop2022";
+        rr:datatype xsd:string  
+      		]
+    ].
+    
+<#TriplesMap5>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{Regime type}";
+			               rr:termType rr:IRI; 
+			               rr:class our:TipoRegimen
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:TipoRegimen;
+    	rr:objectMap [
+      		rml:reference "Regime type";
         rr:datatype xsd:string  
       		]
     ].
 
     
-
-
+<#TriplesMap6>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2021}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2021
+    ];
     
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2021;
+    	rr:objectMap [
+      		rml:reference "2021";
+        rr:datatype xsd:string  
+      		]
+    ].
+<#TriplesMap7>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2020}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2020
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2020;
+    	rr:objectMap [
+      		rml:reference "2020";
+        rr:datatype xsd:string  
+      		]
+    ].
+<#TriplesMap8>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2019}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2019
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2019;
+    	rr:objectMap [
+      		rml:reference "2019";
+        rr:datatype xsd:string  
+      		]
+    ].
+    
+<#TriplesMap9>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2018}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2018
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2018;
+    	rr:objectMap [
+      		rml:reference "2018";
+        rr:datatype xsd:string  
+      		]
+    ].
+    
+<#TriplesMap10>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2017}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2017
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2017;
+    	rr:objectMap [
+      		rml:reference "2017";
+        rr:datatype xsd:string  
+      		]
+    ].    
+    
+<#TriplesMap11>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2016}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2016
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2016;
+    	rr:objectMap [
+      		rml:reference "2016";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap12>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2015}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2015
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2015;
+    	rr:objectMap [
+      		rml:reference "2015";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap13>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2014}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2014
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2014;
+    	rr:objectMap [
+      		rml:reference "2014";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap14>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2013}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2013
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2013;
+    	rr:objectMap [
+      		rml:reference "2013";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap15>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2012}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2012
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2012;
+    	rr:objectMap [
+      		rml:reference "2012";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap16>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2011}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2011
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2011;
+    	rr:objectMap [
+      		rml:reference "2011";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap17>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2010}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2010
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2010;
+    	rr:objectMap [
+      		rml:reference "2010";
+        rr:datatype xsd:string  
+      		]
+    ].    
+<#TriplesMap18>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2008}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2008
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2008;
+    	rr:objectMap [
+      		rml:reference "2008";
+        rr:datatype xsd:string  
+      		]
+    ].        
+<#TriplesMap19>
+	      rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/34620/ontologies/2022/11/ontology-Sergio#{2006}";
+			               rr:termType rr:IRI; 
+			               rr:class our:ValorDemocracia2006
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:ValorDemocracia2006;
+    	rr:objectMap [
+      		rml:reference "2006";
+        rr:datatype xsd:string  
+      		]
+    ].    
