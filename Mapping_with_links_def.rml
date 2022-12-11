@@ -28,7 +28,14 @@
         rr:datatype xsd:string 
       		
     ];
-  ] .
+  ];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:estaEn;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/{Region}"; 
+     	  ] 
+     	].
+
   <#TriplesMap2>
 	      rml:logicalSource [ 
     	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
@@ -368,8 +375,38 @@
         rr:datatype xsd:float  
       		]
     ].    
+ <#TriplesMap20>
+	     rml:logicalSource [ 
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
+		            rml:referenceFormulation ql:CSV 
+	      ];
+    	rr:subjectMap [
+			               rr:template "http://www.semanticweb.org/data/{country}";
+			               rr:termType rr:IRI; 
+			               rr:class our:Pais
+    ];
+    
+    rr:predicateObjectMap [
+    	rr:predicate our:nombre;
+    	rr:objectMap [
+      		rml:reference "country";
+        rr:datatype xsd:string 
+      		
+    ];
+  ];
 
-
-
-
-
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/indiceDepresion/2022/{country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/Poblacion/2022/{country}"; 
+     	  ] 
+     	].  
+    
+    
+ 
