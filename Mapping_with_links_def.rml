@@ -12,7 +12,7 @@
 
 <#TriplesMap1>
 	     rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -127,7 +127,7 @@
      	].
   <#TriplesMap2>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/depresion.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -181,7 +181,7 @@
 
 <#TriplesMap3>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -200,7 +200,7 @@
     
 <#TriplesMap4>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/depresion.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -233,7 +233,7 @@
     
 <#TriplesMap5>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -266,7 +266,7 @@
     
 <#TriplesMap6>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -297,7 +297,7 @@
     ].
 <#TriplesMap7>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -328,7 +328,7 @@
     ].
 <#TriplesMap8>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -360,7 +360,7 @@
     
 <#TriplesMap9>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -392,7 +392,7 @@
     
 <#TriplesMap10>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -424,7 +424,7 @@
     
 <#TriplesMap11>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -455,7 +455,7 @@
     ].    
 <#TriplesMap12>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -486,7 +486,7 @@
     ].    
 <#TriplesMap13>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -517,7 +517,7 @@
     ].    
 <#TriplesMap14>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -548,7 +548,7 @@
     ].    
 <#TriplesMap15>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -579,7 +579,7 @@
     ].    
 <#TriplesMap16>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -610,7 +610,7 @@
     ].    
 <#TriplesMap17>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -641,7 +641,7 @@
     ].    
 <#TriplesMap18>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -672,7 +672,7 @@
     ].        
 <#TriplesMap19>
 	      rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Democracy_Index_4.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/democracia.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
@@ -703,7 +703,7 @@
     ].    
  <#TriplesMap20>
 	     rml:logicalSource [ 
-    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
+    	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Dataset_final/main/depresion.csv" ;
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
