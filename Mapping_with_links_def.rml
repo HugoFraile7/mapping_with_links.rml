@@ -51,7 +51,7 @@
     	rr:predicate our:valor;
     	rr:objectMap [
       		rml:reference "prevalence";
-        rr:datatype xsd:int  
+        rr:datatype xsd:float  
     ]
   ] .
 
@@ -89,7 +89,7 @@
     	rr:predicate our:valor;
     	rr:objectMap [
       		rml:reference "pop2022";
-        rr:datatype xsd:string  
+        rr:datatype xsd:float  
       		]
     ].
     
