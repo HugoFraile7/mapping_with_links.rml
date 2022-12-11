@@ -153,7 +153,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "Porcentage de personas con depresion por el puyo trabajo de web semantica"; 
+     	    rr:constant "Porcentaje de personas con depresion en cada país"; 
      	    rr:datatype xsd:string
 	  ] 
      	];
@@ -218,7 +218,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Numero total de personas que habitan el país en 2022";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -251,7 +251,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Tipo de sistema político del país";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -284,7 +284,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2021";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -315,7 +315,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2020";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -346,7 +346,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2019";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -378,7 +378,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2018";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -410,7 +410,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2017";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -442,7 +442,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2016";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -473,7 +473,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2015";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -504,7 +504,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2014";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -535,7 +535,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2013";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -566,7 +566,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2012";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -597,7 +597,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2011";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -628,7 +628,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2010";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -659,7 +659,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2008";
            rr:datatype xsd:string
      	  ] 
      	];
@@ -690,7 +690,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "";
+     	    rr:constant "Valor de democracia en el año 2006";
            rr:datatype xsd:string
      	  ] 
      	];
