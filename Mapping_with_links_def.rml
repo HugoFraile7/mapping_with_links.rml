@@ -34,8 +34,97 @@
      	  rr:objectMap [ 
      	    rr:template "http://www.semanticweb.org/data/{Region}"; 
      	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/TipoRegimen/2022/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2021/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2020/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2019/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2018/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2017/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2016/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2015/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2014/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2013/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2012/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2011/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2010/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2008/{Country}"; 
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:posee;  
+     	  rr:objectMap [ 
+     	    rr:template "http://www.semanticweb.org/data/ValorDemocracia/2006/{Country}"; 
+     	  ] 
      	].
-
   <#TriplesMap2>
 	      rml:logicalSource [ 
     	  rml:source "https://raw.githubusercontent.com/HugoFraile7/Data_sets/main/Data.csv" ;
