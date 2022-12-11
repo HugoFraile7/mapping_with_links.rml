@@ -143,6 +143,34 @@
         rr:datatype xsd:int  
       		]
   ];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2022"; 
+	     rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "Porcentage de personas con depresion por el puyo trabajo de web semantica"; 
+     	    rr:datatype xsd:string
+	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2022"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
      rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -180,6 +208,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:Poblacion2022
     ];
+    	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2022"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     
     rr:predicateObjectMap [
     	rr:predicate our:valor;
@@ -199,7 +241,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:TipoRegimen
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2022"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:tipo;
     	rr:objectMap [
@@ -219,7 +274,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2021"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -237,7 +305,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2020"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -255,7 +336,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2019"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -274,7 +368,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2018"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -293,7 +400,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2017"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -312,7 +432,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2016"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -330,7 +463,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2015"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -348,7 +494,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2014"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -366,7 +525,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2013"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -384,7 +556,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2012"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -402,7 +587,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2011"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -420,7 +618,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2010"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -438,7 +649,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2008"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -456,7 +680,20 @@
 			               rr:termType rr:IRI; 
 			               rr:class our:ValorDemocracia
     ];
-    
+     	rr:predicateObjectMap [ 
+     	  rr:predicate our:año;  
+     	  rr:objectMap [ 
+     	    rr:constant "2006"; 
+           rr:datatype xsd:int
+     	  ] 
+     	];
+ 	rr:predicateObjectMap [ 
+     	  rr:predicate our:descripcion;  
+     	  rr:objectMap [ 
+     	    rr:constant "";
+           rr:datatype xsd:string
+     	  ] 
+     	];
     rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
