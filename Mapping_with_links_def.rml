@@ -164,13 +164,6 @@
            rr:datatype xsd:int
      	  ] 
      	];
- 	rr:predicateObjectMap [ 
-     	  rr:predicate our:descripcion;  
-     	  rr:objectMap [ 
-     	    rr:constant "";
-           rr:datatype xsd:string
-     	  ] 
-     	];
      rr:predicateObjectMap [
     	rr:predicate our:valor;
     	rr:objectMap [
@@ -218,7 +211,7 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:descripcion;  
      	  rr:objectMap [ 
-     	    rr:constant "Numero total de personas que habitan el país en 2022";
+     	    rr:constant "Numero total de personas que habitan el país";
            rr:datatype xsd:string
      	  ] 
      	];
