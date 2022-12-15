@@ -204,12 +204,12 @@
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/data/Poblacion/2022/{Country}";
+			               rr:template "http://www.semanticweb.org/data/Poblacion/{Country}";
 			               rr:termType rr:IRI; 
 			               rr:class our:Poblacion
     ];
     	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2022"; 
            rr:datatype xsd:int
@@ -242,7 +242,7 @@
 			               rr:class our:TipoRegimen
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2022"; 
            rr:datatype xsd:int
@@ -275,7 +275,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2021"; 
            rr:datatype xsd:int
@@ -306,7 +306,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2020"; 
            rr:datatype xsd:int
@@ -337,7 +337,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2019"; 
            rr:datatype xsd:int
@@ -369,7 +369,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2018"; 
            rr:datatype xsd:int
@@ -401,7 +401,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2017"; 
            rr:datatype xsd:int
@@ -433,7 +433,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2016"; 
            rr:datatype xsd:int
@@ -464,7 +464,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2015"; 
            rr:datatype xsd:int
@@ -495,7 +495,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2014"; 
            rr:datatype xsd:int
@@ -526,7 +526,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2013"; 
            rr:datatype xsd:int
@@ -557,7 +557,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2012"; 
            rr:datatype xsd:int
@@ -588,7 +588,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2011"; 
            rr:datatype xsd:int
@@ -619,7 +619,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2010"; 
            rr:datatype xsd:int
@@ -650,7 +650,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2008"; 
            rr:datatype xsd:int
@@ -681,7 +681,7 @@
 			               rr:class our:ValorDemocracia
     ];
      	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2006"; 
            rr:datatype xsd:int
@@ -724,13 +724,13 @@
  	rr:predicateObjectMap [ 
      	  rr:predicate our:posee;  
      	  rr:objectMap [ 
-     	    rr:template "http://www.semanticweb.org/data/indiceDepresion/2022/{country}"; 
+     	    rr:template "http://www.semanticweb.org/data/IndiceDepresion/2022/{country}"; 
      	  ] 
      	];
  	rr:predicateObjectMap [ 
      	  rr:predicate our:posee;  
      	  rr:objectMap [ 
-     	    rr:template "http://www.semanticweb.org/data/Poblacion/2022/{country}"; 
+     	    rr:template "http://www.semanticweb.org/data/Poblacion/{country}"; 
      	  ] 
      	].  
     
