@@ -144,7 +144,7 @@
       		]
   ];
  	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2022"; 
 	     rr:datatype xsd:int
@@ -158,7 +158,7 @@
 	  ] 
      	];
  	rr:predicateObjectMap [ 
-     	  rr:predicate our:año;  
+     	  rr:predicate our:ano;  
      	  rr:objectMap [ 
      	    rr:constant "2022"; 
            rr:datatype xsd:int
