@@ -131,9 +131,9 @@
 		            rml:referenceFormulation ql:CSV 
 	      ];
     	rr:subjectMap [
-			               rr:template "http://www.semanticweb.org/data/indiceDepresion/2022/{Country}";
+			               rr:template "http://www.semanticweb.org/data/IndiceDepresion/2022/{Country}";
 			               rr:termType rr:IRI; 
-			               rr:class our:indiceDepresion
+			               rr:class our:IndiceDepresion
     ];
     
     rr:predicateObjectMap [
@@ -206,7 +206,7 @@
     	rr:subjectMap [
 			               rr:template "http://www.semanticweb.org/data/Poblacion/2022/{Country}";
 			               rr:termType rr:IRI; 
-			               rr:class our:Poblacion2022
+			               rr:class our:Poblacion
     ];
     	rr:predicateObjectMap [ 
      	  rr:predicate our:año;  
